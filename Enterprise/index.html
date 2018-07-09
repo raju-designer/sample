@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enterprise | Home</title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/opensans.css" /> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/flashy.min.css">
+       <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+     <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <style type="text/css">
+        body{
+            font-family:"OpenSans", sans-serif;
+        }
+ 
+        .row.no-gutters {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .logo{;
+            width:300px;
+            margin-top: 20px;
+        }
+        .banner{
+            background: url(./img/banner.jpg) no-repeat 0px 0px;
+            width: 100%;
+            background-size: cover;
+            min-height: 900px;
+            display: block;
+        }
+        .overlay{
+            background: #00000085;
+            /*z-index: 2;*/
+            position: relative;
+            width: 100%;
+            min-height: 900px;
+        }
+        .banner-content{
+            margin-top: 20%;
+        }
+        .banner-content h1{
+            color: #fff;
+            width: 49%;
+            margin: 0 auto;
+            font-size: 3.5rem;
+            font-style: italic;
+            font-weight: 600;
+            font-family: "open sans"
+        }
+        .caption{
+        	    position: relative;
+    top: -129px;
+        }
+        .caption p{
+        	    width: 82%;
+    margin-bottom: 0;
+        }
+        /*.banner-content h1:before {
+            content: '""';
+            background: url('img/left-quote.png') no-repeat 0px 0px;
+            position: relative;
+        }*/
+        .section2:before{
+              content: '';
+    position: absolute;
+    /* top: 182%; */
+    left: 50%;
+    width: 100%;
+    height: 68%;
+    -ms-transform: translate(-50%, -44%) rotate(0deg) skew(0deg,12deg);
+    -webkit-transform: translate(-50%, -44%) rotate(0deg) skew(0deg,12deg);
+    transform: translate(-50%, -44%) rotate(0deg) skew(0deg,12deg);
+    background: #007dd6;
+    z-index: 0;
+        }
+        .section2:after{
+            content: '';
+            position: absolute;
+            /* top: 182%; */
+            left: 50%;
+            width: 100%;
+            height: 90%;
+            -ms-transform: translate(-50%, -44%) rotate(0deg) skew(0deg,9deg);
+            -webkit-transform: translate(-50%, -44%) rotate(0deg) skew(0deg,9deg);
+            transform: translate(-50%, -44%) rotate(0deg) skew(0deg,9deg);
+            background: #007dd6;
+            z-index: -1;
+        }
+        .section2{
+            background: #007dd6;
+            padding: 42px;
+            position: relative;
+        }
+        .section2 .row {
+            color: #fff;
+            /*position: relative;
+            z-index: 2;*/
+        }
+        .right-thum{
+            list-style: none;
+        }
+        .right-thum li{
+               width: 200px;
+    /* min-height: 125px; */
+    margin-bottom: 20px;
+    padding: 48px 15px;
+    background: #373737;
+    text-align: center;
+    font-weight: 600;
+    /* align-content: center; */
+    /* display: grid; */
+    margin-left: auto;
+    /* float: left; */
+    /* margin-top: 23px; */
+    /* margin-right: 30px; */
+        }
+        .right-thum li a{
+            color: #fff;
+        }
+        .player-left{
+            width: 100%;
+            border: 10px solid #373737;
+        }
+        .box{
+            color: #fff;
+            display: grid;
+            grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+            grid-column-gap: 20px;
+            grid-column-gap: 50px;
+            grid-row-gap: 10px;
+        }
+        .box-item {
+            /* grid-row-start: 1; */
+            /* column-gap: 34px; */
+            background: #373737;
+            padding: 48px;
+        }
+        .box-item h1{
+            font-size: 6rem;
+            color: #ff3f3f;
+            font-weight: normal;
+            font-family: sans-serif;
+        }
+        .box-item p{
+            color: #cdcdcd;
+            font-size: 1.03rem;
+        }
+        .section4:before{
+            content: '';
+            position: absolute;
+            top: -188px;
+    width: 100%;
+    height: 25%;
+    -ms-transform: skew(0deg,-15deg);
+    -webkit-transform: skew(0deg,-15deg);
+    transform: skew(0deg,-15deg);
+    background: #dfdfdf;
+    z-index: -1;
+        }
+        .section4{
+            background: #dfdfdf;
+            position: relative;
+            padding: 40px 0;
+        }
+        .section4:after{
+                content: '';
+    position: absolute;
+    bottom: -65px;
+    width: 100%;
+    height: 14%;
+    -ms-transform: skew(0deg,-5deg);
+    -webkit-transform: skew(0deg,-5deg);
+    transform: skew(0deg,-5deg);
+    background: #dfdfdf;
+    z-index: -1;
+    /* left: -53px; */
+        }
+        .icon-box{
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+        .icon-box-item{
+            text-align: center;
+            padding: 50px;
+            position: relative;
+        }
+        .icon-box-item p{
+            /*font-weight: 600;*/
+            color: #646464;
+        }
+        .icon-box-item h1{
+            font-size: 1.6rem;
+            color: #5287e8;
+            font-weight: 600;
+        }
+        .icon-box-item img{
+            width: 70px;
+            margin-bottom: 15px;
+        }
+        .right-head{
+            text-align: right;
+            width: 50%;
+            margin-left: auto;
+        }
+        .left-box{
+            /*color: #fff;*/
+        }
+        .left-box h1{
+            font-size: 6rem;
+            line-height: 4rem;
+            font-weight: normal;
+        }
+        .overview{
+            /*padding: 50px 25px!important;*/
+        }
+        .left-box p{
+            margin-bottom: 0;
+            text-transform: uppercase;
+            font-size: 2rem;
+        }
+        .desc{
+            display: grid;
+            min-height: 235px;
+            padding-top: 50px;
+            position: relative;
+            color: #c3c3c3;
+        }
+        .no{
+            min-height: 235px;
+            padding-top: 50px;
+            color: #f0f0f0;
+        }
+        .box-1{
+            min-height: 230px;
+            padding-top: 50px;
+        }
+        .box-1 p{
+            letter-spacing: 1px;
+            color: #4c4c4ce3;
+            font-size: 1.2rem;
+        }
+        .box-1:after{
+                content: '';
+    border-bottom: 3px dotted #bebebe;
+    position: absolute;
+    width: 800px;
+    height: 2px;
+    left: 0;
+        }
+        .desc h4{
+            align-self: end;
+            text-align: left;
+            font-size: 1.2rem;
+            padding: 0 25px;
+            white-space: pre-line;
+            letter-spacing: 1px;
+            margin-bottom: 0;
+        }
+
+        .middle-box{
+            background: #5e91ff; /* Old browsers */
+            background: -moz-linear-gradient(to bottom, #6897ff 0%,#896dd5 28%,#e66ade 56%,#f26a90 86%,#ff6060 100%,#ff6060 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(to bottom, #6897ff 0%,#896dd5 28%,#e66ade 56%,#f26a90 86%,#ff6060 100%,#ff6060 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #6897ff 0%,#896dd5 28%,#e66ade 56%,#f26a90 86%,#ff6060 100%,#ff6060 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e91ff', endColorstr='#e5308d',GradientType=0 ); /* IE6-9 */
+        }
+        .middle-box h1{
+               
+    margin-bottom: 3rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #292929d4;
+    font-size: 2.5rem;      }
+        .right-head p{
+            white-space: pre-line;
+        }
+        .right-head h1{
+                font-weight: 700;
+        }
+        .section5{
+            background: #313131; */
+            position: relative;
+    padding: 0 0 40px 0;
+    content: '';
+     position: relative; 
+    /* bottom: -3px; */
+    left: 0;
+    width: 100%;
+    height: 22%;
+    -ms-transform: rotate(0deg) skew(0deg,17deg);
+    -webkit-transform: rotate(0deg) skew(0deg,17deg);
+    transform: rotate(0deg) skew(0deg,17deg);
+    background: #313131;
+    z-index: 1;
+        }
+        .section5 .row{
+            position: relative;
+            z-index: 2;
+        }
+        .section5:before {
+    /*content: '';*/
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 8%;
+    -ms-transform: rotate(0deg) skew(0deg,6deg);
+    -webkit-transform: rotate(0deg) skew(0deg,6deg);
+    transform: rotate(0deg) skew(0deg,6deg);
+    background: #313131;
+    z-index: 1;
+}
+.section5 .container{
+     -ms-transform: rotate(0deg) skew(0deg,-17deg);
+    -webkit-transform: rotate(0deg) skew(0deg,-17deg);
+    transform: rotate(0deg) skew(0deg,-17deg);
+    position: relative;
+    z-index: 1;
+}
+        .section5:after{
+            /*content: '';*/
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 8%;
+    -ms-transform:  rotate(0deg) skew(0deg,6deg);;
+    -webkit-transform:  rotate(0deg) skew(0deg,6deg);;
+    transform: rotate(0deg) skew(0deg,6deg);
+    background: #313131;
+    z-index: 1;
+}
+.box-1 h3{
+    color: #eee;
+        font-weight: 600;
+    font-size: 1.5rem;
+}
+.box-2{
+    padding: 25px 0;
+    background: #ff6060;
+    padding: 25px 0;
+    background: #fe6164;
+    width: 100%;
+    color: #eee;
+    color: #eee;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border: 0;
+    cursor: pointer;
+}
+.box-2 h1{
+        margin-bottom: 0;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.white-box{
+        display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
+    grid-column-gap: 25px;
+    /*grid-column-gap: 50px;*/
+    /*grid-row-gap: 10px;*/
+    position: relative;
+    z-index: 2;
+}
+.white-box-item{
+    padding: 25px;
+    background:#fff;
+}
+
+.white-box-item h4{
+    margin-bottom: 7rem;
+    color: #202020;
+    font-weight: 400;
+}
+.white-box-item p{
+    color: #ff0a2a;
+    font-weight: 600;
+    font-style: italic
+}
+.section6{
+    background: #cdcdcd;
+    padding: 40px 0;
+    position: relative;
+}
+.section6:before{
+        content: '';
+    position: absolute;
+    top: -54px;
+    eft: 0;
+    width: 100%;
+    height: 58%;
+    -ms-transform: rotate(0deg) skew(0deg,13deg);
+    -webkit-transform: rotate(0deg) skew(0deg,13deg);
+    transform: rotate(0deg) skew(0deg,13deg);
+    background: #cdcdcd;
+    z-index: -1;
+}
+.grey-box{
+    background:#313131;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.grey-box a{
+    color: #ff0a2a;
+    font-weight: 600;
+    font-style: italic;
+}
+.grey-box h4{
+    font-weight: 400;
+}
+.section-blue{
+    background: #007dd6;
+    position: relative;
+}
+
+.section-blue:before{
+    content: '';
+    position: absolute;
+    top: -392px;
+    left: 0;
+    width: 100%;
+    height: 105%;
+    -ms-transform: rotate(0deg) skew(0deg,-21deg);
+    -webkit-transform: rotate(0deg) skew(0deg,-21deg);
+    transform: rotate(0deg) skew(0deg,-21deg);
+    background: #007dd6;
+    z-index: 1;
+}
+.grid-photos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+}
+.grid-item {
+    border: 5px solid #fff;
+    position: relative;
+}
+.grid-item img{
+    width: 100%;
+}
+.grid-item span {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background: #5494c9;
+    background: -moz-linear-gradient(top, #5494c9 0%, #006dc6 100%, #1e5799 100%, #207cca 100%, #7db9e8 100%);
+    background: -webkit-linear-gradient(top, #5494c9 0%,#006dc6 100%,#1e5799 100%,#207cca 100%,#7db9e8 100%);
+    background: linear-gradient(to bottom, #5494c95c 0%,#006dc6d6 100%,#1e5799a3 100%,#207ccab5 100%,#7db9e8d9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5494c9', endColorstr='#7db9e8',GradientType=0 );
+    top: 0;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 46%;
+    white-space: pre-line;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.footer-top{
+    background: #313131;
+    padding: 40px
+}
+.footer-top h2{
+    color: #007dd6;
+    text-align: center;
+    font-weight: 700;
+}
+.footer-top p{
+    color: #dfdfdf;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+
+}
+.footer-top p a{
+    color: #dfdfdf;
+}
+.footer{
+    text-align: center;
+    padding: 40px 0;
+    background: #e6e6e6;
+}
+.footer-logo img{
+    width: 300px;
+    margin-bottom: 100px;
+}
+.phone{
+    font-weight:  600;
+    color: #0c0c0c;
+}
+.address{
+    white-space: pre;
+}
+.icon-box-item:nth-child(odd):after {
+       content: '';
+    /* background: #fff; */
+    position: absolute;
+    width: 0;
+    height: 580px;
+    right: 0px;
+    top: 0;
+    border-right: 5px solid #fff;
+}
+.white-program{
+    position: relative;
+}
+body .item-video *{
+ width: 100%;
+}
+
+.white-program:before{
+        content: "";
+    position: absolute;
+    /* bottom: 0; */
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+    -ms-transform: skew(0deg,-13deg);
+    -webkit-transform: skew(0deg,-13deg);
+    transform: skew(0deg,-13deg);
+    background: #ffffff;
+    z-index: 0;
+    top: 12px;
+    right: 0px;
+}
+.white-program .container{
+    position: relative;
+}
+
+.section4 .text-dark:first-of-type{
+    width: 34%;
+}
+.overlay--{
+         background: #00000085;
+    /* z-index: 2; */
+    position: absolute;
+    width: 100%;
+    min-height: 400px;
+    top: 50px;
+    border-radius: 3px;
+}
+@media screen and (max-width: 991px){
+    .right-thum{
+        margin: 0;
+        padding: 0;
+    }
+    .right-thum li{
+        background: #fb565e;
+        width: 200px;
+        min-height: 125px;
+         margin-bottom: 0px; 
+     padding: 35px 15px;
+    text-align: center;
+    font-weight: 600;
+    align-content: center;
+    display: grid;
+    margin-left: auto;
+    float: left;
+    margin-top: 23px;
+     margin-right: 45px; 
+    }
+    .right-thum li:last-of-type{
+        margin-right: 0;
+    }
+.box{
+    display: inherit;
+}
+    .box-item{
+            margin-bottom: 25px;
+               padding: 10px 37px;
+    }
+    .box-item h1{
+    float: left;
+    margin-right: 33px;
+    }
+    .box-item p{
+        margin-bottom: 0;
+    }
+    .icon-box-item:nth-child(odd):after{
+        height: 750px;
+    }
+    .section4 .text-dark{
+        width: 50%;
+    }
+    .middle-box h1{
+        font-size: 2rem;
+    }
+    .box-1:after{
+            width: 620px;
+    }
+    .white-box-item{
+        padding: 20px;
+    }
+    .white-box-item h4{
+            font-size: 1.3rem;
+                margin-bottom: 2rem;
+    }
+    .white-box-item p{
+            font-size: 0.9rem;
+            margin-bottom: 0;
+    }
+    .section4:after{
+        -ms-transform: skew(0deg,-11deg);
+    -webkit-transform: skew(0deg,-11deg);
+    transform: skew(0deg,-11deg);
+    }
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.owl-carousel{
+    z-index: 0;
+    /*height: 950px;*/
+}
+.after-blue:after{
+content: '';
+    position: absolute;
+    /* top: 182%; */
+    left: 50%;
+    width: 100%;
+    height: 1%;
+    -ms-transform: translate(-50%, -44%) rotate(0deg) skew(0deg,12deg);
+    -webkit-transform: translate(-50%, -44%) rotate(0deg) skew(0deg,12deg);
+    transform: translate(-50%, -44%) rotate(0deg) skew(0deg,12deg);
+    background: #007dd6;
+    z-index: 0;
+}
+    </style>
+
+
+
+
+
+
+</head>
+<body>
+    <div class="header"> 
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="#">
+                            <img class="logo" src="img/logo.png">
+                        </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="menu" href="#" onclick="openNav()"><img class="menu float-right mt-4" src="img/menu.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                 <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+            <div class="after-blue"> 
+    
+   </div>
+    <section class="section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-8">
+                    <div class="caption">
+                        <h1>So. What Is Enterprise?</h1>
+                        <p>It is a fellowship for students of business, technology and design. In a world where
+                        technology, demographics, and urbanisation are changing the game faster than ever,
+                        you can’t just delegate the responsibility of 'creating yourself' to your college. 
+                        </p>
+                        <h3 class="font-italic">Own it.</h3>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-8">
+                    <a class="custom" data-flashy-type="video" href="https://youtu.be/K4tbLmx8Pw4"><img class="player-left" src="img/player.png"></a>
+                    
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <ul class="right-thum ">
+                        <li><a href="#"></a></li>
+                        <li><a href="#">DOWNLOAD BROCHURE</a></li>
+                        <li><a href="#">APPLY NOW</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section3">
+        <div class="container">
+            <h1 class="text-white">Is it for You?</h1>
+            <p class="text-white">In 2nd or 3rd year of an undergrad course?
+            Enterprise is the perfect launchpad for you, if...</p>
+            <div class="box">
+                <div class="box-item">
+                    <h1>01</h1>
+                    <h2>You want to study abroad</h2>
+                    <p>Start working towards winning a scholarship or a grant. That requires strategy, research, and time. At Enterprise, you will acquire the guidance and the resume bullet points required to winning a scholarship.</p>
+                </div>
+                <div class="box-item">
+                    <h1>02</h1>
+                    <h2>You want experience</h2>
+                    <p>We are advocates of gaining rich work experience. Identify and research the best fit organisation, understand your strengths, and craft your selling pitch. Acquire the necessary experience, skills and connections.</p>
+                </div>
+                <div class="box-item">
+                    <h1>03</h1>
+                    <h2>You want to do business</h2>
+                    <p>Nobody ever learns how to do business only through textbooks. Get out there and start meeting potential clients, facing rejections, raising funds, negotiating contracts, and inventing solutions, and all that. Ready?</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="section4">
+        <div class="container">
+            <h1 class="text-dark">Everything you need to know</h1>
+            <p class="text-dark">Basically, how this program is going to rock your world.</p>   
+            <div class="icon-box">
+                <div class="icon-box-item item1">
+                    <img src="img/icons/calendar (1).svg" />
+                    <h1>Your Second Best 9 months</h1>
+                    <p>Enterprise is a 9-month long fellowship program for students in 2nd & 3rd year of college. It will be your 2nd best 9 months so far (the first was obviously in your mother’s womb!)</p>
+                </div>
+                <div class="icon-box-item item2">
+                    <img src="img/icons/Final icon-06.svg" />
+                    <h1>Build Your Brand</h1>
+                    <p>Planning to study abroad? Looking for scholarship? Want to get that job at one of the most innovative companies? Thinking of incubating your startup idea? Looking for
+                    funds? Everything depends on your
+                    personal brand - your story of what you
+                    have done, what you can do and what you
+                    want to do. At Enterprise, you will craft your
+                    brand along with the guidance from
+                    industry experts and mentors.</p>
+                </div>
+                <div class="icon-box-item item3">
+                    <img src="img/icons/Final icon-05.svg" />
+                    <h1>Start Earning</h1>
+                    <p>The Enterprise will give you opportunities to take
+                    up your first professional projects; you can take
+                    this opportunity & make it big.
+                    </p>
+                </div>
+                <div class="icon-box-item item4">
+                    <img src="img/icons/Final icon-09.svg" />
+                    <h1>Chill With Champions</h1>
+                    <p>The best learning happens outside the
+                        classroom, our informal dialogues and
+                        conversations. Every fortnight you will meet
+                        mentors from various industries to spend an
+                        informal evening and talk about everything
+                        that matters.
+                    </p>
+                </div>
+                <div class="icon-box-item item5">
+                    <img src="img/icons/Final icon-10.svg" />
+                    <h1>Learn By Doing</h1>
+                    <p>We have no books, teachers or lectures at
+Enterprise, yet you will learn faster than ever.
+Everything you learn will be through actual
+challenges and projects.
+
+                    </p>
+                </div>
+                <div class="icon-box-item item6">
+                    <img src="img/icons/Final icon-07.svg" />
+                    <h1>Coolest Office in Town</h1>
+                    <p>At Enterprise you will get to be in a young, funky &
+happening space that will be yours. There you will
+have access to latest tools & facilities which will
+enable you to DO.
+
+                    </p>
+                </div>
+                <div class="icon-box-item item7">
+                    <img src="img/icons/share.svg" />
+                    <h1>2 Years of Career Support</h1>
+                    <p>The journey does not end after 9 months. The
+enterprise mentors will continue to be partners in
+your growth. Your success is our success, it’s as
+simple as that. You can leverage the networks, the
+guidance and even the coaching platform to help
+you fast track on your career journey.
+                    </p>
+                </div>
+                <div class="icon-box-item item8">
+                    <img src="img/icons/megaphone.svg" />
+                    <h1>Bootcamp</h1>
+                    <p>You will get to be the part of 4-day powerpack
+adventure field boot camp to kickstart your
+enterprise journey.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="white-program">
+        <div class="container">
+    <div class="right-head">
+                <h1>Program Overview</h1>
+                <h3>Across all phases:</h3>
+                <p>Self discovery workshops, soft skills training,
+                    mentor meetings, weekly forums with experts,
+                    self learning pathways and acquiring
+                    certifications and credentials. 
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section5">
+        <div class="container"> 
+            
+            <div class="row no-gutters text-center">
+                <div class="col-md-3 overview left-box">
+                    <div class="no">
+                        <p>phase</p>
+                        <h1>01</h1>
+                    </div>
+                    <div class="no">
+                        <p>phase</p>
+                        <h1>02</h1>
+                    </div>
+                    <div class="no">
+                        <p>phase</p>
+                        <h1>03</h1>
+                    </div>
+                    <div class="no">
+                        <p>phase</p>
+                        <h1>04</h1>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="overview middle-box">
+                        <div class="box-1">
+                            <h1>BOOTCAMP</h1>
+                            <h3>3 MONTHS</h3>
+                            <p class="mb-0">12 hours weekly + </p>
+                            <p>flexi time</p>
+                        </div>
+                        <div class="box-1">
+                            <h1>PROJECT</h1>
+                            <h3>6 MONTHS</h3>
+                            <p class="mb-0">6 hours weekly + </p>
+                            <p>flexi time</p>
+                        </div>
+                        <div class="box-1">
+                            <h1>TRANSITION</h1>
+                            <h3>3-6 MONTHS</h3>
+                            <p class="mb-0">2 hours weekly + </p>
+                            <p>flexi time</p>
+                        </div>
+                        <div class="box-1">
+                            <h1>PROFESSIONAL</h1>
+                            <h3>12 MONTHS</h3>
+                            <!-- <p class="mb-0">2 hours weekly + </p> -->
+                            <p>Digital flexi time</p>
+                        </div>
+                    </div>
+                        <button class="box-2">
+                            APPLY NOW
+                        </button> 
+                </div>
+                <div class="col-md-4 overview right-box">
+                    <div class="desc">
+                    <h4>Baseline Skills
+                        Corporate Challenges
+                        Team Building
+                        Project Planning</h4>
+                    </div>
+                    <div class="desc">
+                    <h4>Solutioning
+Implementation
+Markting
+Project Management</h4>
+                    </div>
+                    <div class="desc">
+                    <h4>Review
+Portfolio Making
+Research
+Applications</h4>
+                    </div>
+                    <div class="desc">
+                    <h4>Work
+Earn
+Study
+Mentor</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section6">
+        <div class="container">
+            <div class="white-box">
+                <div class="white-box-item">
+                    <h4>"...creativity, innovation,
+imagination, and design
+skills will be prioritised
+by employers."</h4>
+                    <p>Read the report called "Workforce
+of the Future" by Price
+Waterhouse Coopers here.</p>
+                </div>
+                <div class="white-box-item">
+                    <h4>"...every student of
+business should start
+real companies, run
+actual funds with real
+capital... during their
+education."</h4>
+                    <p>Read the HBR interview with the
+Dean of University of Michigan's
+Ross school of business here.</p>
+                </div>
+                <div class="white-box-item">
+                    <h4>"...we must empower
+humans to do jobs only
+humans can do."</h4>
+                    <p>Read Time magazine's article on
+"How college students must
+prepare for our automated future"</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="section-blue">
+        <div class="container">
+        <div class="grey-box">
+                <h4>11 enterprising ‘attitudes’ that get you future ready</h4>
+                <a href="#">Read the full article here</a>
+            </div>
+            <div class="grid-photos">
+                    <div class="grid-item">
+                        <img class="" src="img/Board of Directors.jpg" />
+                        <span>BOARD OF
+DIRECTORS</span>
+                    </div>
+                    <div class="grid-item">
+                        <img class="" src="img/Our Team.jpg" />
+                        <span>OUR TEAM</span>
+                    </div>
+                    <div class="grid-item">
+                        <img class="" src="img/Our Space.jpg" />
+                        <span>OUR SPACE</span>
+                    </div>  
+                    <div class="grid-item">
+                        <img class="" src="img/Collaborations.jpg" />
+                        <span>COLLABORATION</span>
+                    </div>
+                    <div class="grid-item">
+                        <img class="" src="img/IStartedYoung.jpg" />
+                        <span>#ISTARTEDYOUNG</span>
+                    </div>
+                    <div class="grid-item">
+                        <img class="" src="img/Blog.jpg" />
+                        <span>BLOG</span>
+                    </div>  
+            </div>
+            </div>
+    </div>
+    <div class="footer-top">
+        <div class="container">
+            <h2>Want regular updates on creating yourself?</h2>
+            <p>Join our mailing list<strong><a href="#"> here.</a></strong></p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-logo">
+            <a href="#">
+            <img src="img/logo.png" />
+        </a>
+        </div>
+        <div class="address-div">
+            <p class="phone">020 26631280 | +91 98909 69261</p>
+            <p class="address">1/23 Laxminarayan Park Koregaon Park Road Pune,
+PUNE-411001, Maharashtra, India</p>
+        </div>
+    </div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.flashy.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+<script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+$( document ).ready(function() {
+  var owl = $('#carousel');
+  owl.owlCarousel({
+      loop:true,
+      margin:0,
+      padding:0,
+      nav:false,
+      dots:false,
+      items:1,
+       videoHeight: 100,
+      lazyLoad: true,
+      autoplay:true
+  });
+  owl.on('translate.owl.carousel',function(e){
+    $('.owl-item video').each(function(){
+      $(this).get(0).pause();
+    });
+  });
+  owl.on('translated.owl.carousel',function(e){
+    $('.owl-item.active video').get(0).play();
+  });
+  if(!isMobile()){
+    $('.owl-item .item-video').each(function(){
+      var attr = $(this).attr('data-videosrc');
+      if (typeof attr !== typeof undefined && attr !== false) {
+        console.log('hit');
+        var videosrc = $(this).attr('data-videosrc');
+        $(this).prepend('<video muted><source src="'+videosrc+'" type="video/mp4"></video>');
+      }
+    });
+    $('.owl-item.active video').attr('autoplay',true).attr('loop',true);
+  }
+});
+function isMobile(width) {
+    if(width == undefined){
+        width = 719;
+    }
+    if(window.innerWidth <= width) {
+        return true;
+    } else {
+        return false;
+    }
+}
+</script>
+</body>
+
+</html>
